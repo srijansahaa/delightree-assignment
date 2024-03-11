@@ -1,0 +1,29 @@
+.mainForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mainForm > div {
+  width: calc(50% - 10px);
+}
+
+@media screen and (max-width: 786px) {
+  .mainForm > div {
+    width: 100%;
+  }
+}
+
+.mainForm ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.response {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
